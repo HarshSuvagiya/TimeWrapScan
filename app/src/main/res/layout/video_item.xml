@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_7sdp"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageView_view_adapter"
+                android:layout_width="314px"
+                android:layout_height="556px"
+                android:scaleType="centerCrop"
+                app:riv_border_width="@dimen/_1sdp"
+                app:riv_border_color="#fff"
+                app:riv_corner_radius="@dimen/_5sdp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/border"
+            android:layout_width="314px"
+            android:layout_height="556px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    >
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:gravity="right|center">
+
+                        <ImageView
+                            android:id="@+id/delete"
+                            android:layout_width="72px"
+                            android:layout_height="72px"
+                            android:src="@drawable/delete_mycre" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:layout_marginLeft="@dimen/_7sdp"
+
+                        android:gravity="center|left">
+
+                        <ImageView
+                            android:id="@+id/share"
+                            android:layout_width="72px"
+                            android:layout_height="72px"
+                            android:src="@drawable/share_mycre" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+
+                >
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/video_icon" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

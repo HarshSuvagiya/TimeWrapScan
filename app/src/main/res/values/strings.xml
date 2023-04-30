@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeWrapScan</string>
+    <string name="tutorial">Swipe down or right to start a scan!</string>
+
+</resources>
