@@ -1,6 +1,6 @@
 # TimeWrapScan
 
-## Screenshots
+## Screenshot
 <img src="TimeWrapScan.png">
 
 Take funny videos and pictures with the TikTok like the TIME WARP SCAN effect.
