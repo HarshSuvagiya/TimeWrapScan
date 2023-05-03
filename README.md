@@ -1,5 +1,8 @@
 # TimeWrapScan
 
+## Screenshots
+<img src="TimeWrapScan.png">
+
 Take funny videos and pictures with the TikTok like the TIME WARP SCAN effect.
 
 Time Warp Scan app can create unique faces, funny looks, and create interesting photos. The warp scan effect is one of the most popular and viral challenges on social media. With the feature of freezing the image when the "white line" passes, Time warp scan will surely bring you laughs and fun and interesting experiences when using Time warp scan filter.
